@@ -1,0 +1,57 @@
+@page{margin:90px 50px 50px;@prince-overlay{content:flow(watermark)}@top{content:flow(header);vertical-align:bottom;padding:50px 0 20px}@bottom{content:flow(footer);margin-bottom:30px}@bottom-left{content:string(copyText, last);width:0;overflow:visible;white-space:nowrap;font-family:myriad-pro,sans-serif;font-size:9pt;color:#bcbec0}}@page :first{margin-top:50px;@top{content:flow(firstHeader)}@bottom{content:flow(firstFooter);margin-bottom:30px}}.templated .imageList{display:block;margin-left:-25px;margin-bottom:30px}.templated .imageList .imageAndData{display:inline-block;vertical-align:top;margin-left:25px;margin-top:30px}.templated .imageList .imageAndData .imageWrapper{display:flex;align-items:center;justify-content:center}.templated .imageList .imageAndData .imageWrapper img{max-width:100%;max-height:100%}.templated .imageList .imageAndData .comment{display:block;overflow-wrap:break-word}.templated .copyright{visibility:hidden;height:0;string-set:copyText content()}.templated .currentPageNum{content:counter(page)}.templated .totalPageNum{content:counter(pages)}.templated .header{flow:static(header)}.templated .firstHeader{flow:static(firstHeader)}.templated .footer{flow:static(footer)}.templated .firstFooter{flow:static(firstFooter)}.templated .printWatermark{flow:static(watermark)}.templated .pageBreak{page-break-before:always;display:block}.templated .blankLine{display:block;border-bottom:1px solid #000}.templated .keepTogether,.templated .signatureEntity{page-break-inside:avoid}.templated .outputDocument{counter-reset:page 1 pages 1;prince-page-group:start;string-set:copyText ""}.templated li ol:first-child,.templated li ol:first-child>li:first-child,.templated li ul:first-child,.templated li ul:first-child>li:first-child{margin-top:0}.templated .inlineLogoHeader{display:flex;margin-bottom:30px;align-items:center;justify-content:center}.templated .inlineLogoHeader .imageList,.templated .inlineLogoHeader .imageAndData,.templated .inlineLogoHeader .keepTogether p:last-child{margin:0}.templated .inlineLogoHeader .imageWrapper{padding-right:25px}.sm .templated .imageList{margin-bottom:15px}.sm .templated .imageList div{margin-top:15px}@media screen{.templated .header,.templated .footer,.templated .firstHeader,.templated .firstFooter,.templated .copyright,.templated .printWatermark{display:none}}@media print{.LDCopyright,.watermark{display:none}}@font-face {
+  font-family: 'myriad-pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('myriad-pro'), url(https://www.lawdepot.com/common/fonts/Myriad-Pro/MyriadPro-Regular.otf?#IEfix) format('embedded-opentype'),
+  src: local('myriad-pro'), url(https://www.lawdepot.com/common/fonts/Myriad-Pro/MyriadPro-Regular.otf) format('opentype');
+  font-display: block;
+}@font-face {
+  font-family: 'myriad-pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('myriad-pro bold'), url(https://www.lawdepot.com/common/fonts/Myriad-Pro/MyriadPro-Bold.otf?#IEfix) format('embedded-opentype'),
+  src: local('myriad-pro bold'), url(https://www.lawdepot.com/common/fonts/Myriad-Pro/MyriadPro-Bold.otf) format('opentype');
+  font-display: block;
+}@font-face {
+  font-family: 'myriad-pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('myriad-pro italic'), url(https://www.lawdepot.com/common/fonts/Myriad-Pro/MyriadPro-It.otf?#IEfix) format('embedded-opentype'),
+  src: local('myriad-pro italic'), url(https://www.lawdepot.com/common/fonts/Myriad-Pro/MyriadPro-It.otf) format('opentype');
+  font-display: block;
+}@font-face {
+  font-family: 'myriad-pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('myriad-pro bold italic'), url(https://www.lawdepot.com/common/fonts/Myriad-Pro/MyriadPro-BoldIt.otf?#IEfix) format('embedded-opentype'),
+  src: local('myriad-pro bold italic'), url(https://www.lawdepot.com/common/fonts/Myriad-Pro/MyriadPro-BoldIt.otf) format('opentype');
+  font-display: block;
+}@font-face {
+  font-family: 'minion-pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('minion-pro'), url(https://www.lawdepot.com/common/fonts/Minion-Pro/MinionPro-Regular.otf?#IEfix) format('embedded-opentype'),
+  src: local('minion-pro'), url(https://www.lawdepot.com/common/fonts/Minion-Pro/MinionPro-Regular.otf) format('opentype');
+  font-display: block;
+}@font-face {
+  font-family: 'minion-pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('minion-pro bold'), url(https://www.lawdepot.com/common/fonts/Minion-Pro/MinionPro-Bold.otf?#IEfix) format('embedded-opentype'),
+  src: local('minion-pro bold'), url(https://www.lawdepot.com/common/fonts/Minion-Pro/MinionPro-Bold.otf) format('opentype');
+  font-display: block;
+}@font-face {
+  font-family: 'minion-pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('minion-pro italic'), url(https://www.lawdepot.com/common/fonts/Minion-Pro/MinionPro-It.otf?#IEfix) format('embedded-opentype'),
+  src: local('minion-pro italic'), url(https://www.lawdepot.com/common/fonts/Minion-Pro/MinionPro-It.otf) format('opentype');
+  font-display: block;
+}@font-face {
+  font-family: 'minion-pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('minion-pro bold italic'), url(https://www.lawdepot.com/common/fonts/Minion-Pro/MinionPro-BoldIt.otf?#IEfix) format('embedded-opentype'),
+  src: local('minion-pro bold italic'), url(https://www.lawdepot.com/common/fonts/Minion-Pro/MinionPro-BoldIt.otf) format('opentype');
+  font-display: block;
+}.contractPreview #contract{border:1px solid #808285}.template_GENERIC{font-family:minion-pro,sans-serif;font-size:12pt;line-height:15pt;color:#000;text-align:left}.template_GENERIC h1,.template_GENERIC h2,.template_GENERIC li.lh,.template_GENERIC u{font-family:myriad-pro,sans-serif;text-transform:uppercase;color:#000;font-weight:700}.template_GENERIC h1{text-align:center;line-height:normal;margin:14px 0 10px;font-size:18pt}.template_GENERIC h1+p{text-align:center;margin-top:10px}.template_GENERIC h2{text-align:center;font-size:12pt}.template_GENERIC .header,.template_GENERIC .footer,.template_GENERIC .firstHeader,.template_GENERIC .firstFooter{font-family:myriad-pro,sans-serif;font-size:10pt;color:#bcbec0;position:relative}.template_GENERIC .header{border-bottom:0.5px solid #bcbec0;box-sizing:border-box;vertical-align:bottom}.template_GENERIC .pageNumbers{position:absolute;right:0}.template_GENERIC .outputDocument:not(:first-child){margin-top:70px}.template_GENERIC .outputDocument p:nth-of-type(5) strong{margin-bottom:10px}.template_GENERIC .partiesContainer{border-top:0.5px solid #bcbec0}.template_GENERIC .parties h2,.template_GENERIC p{margin:20px 0}.template_GENERIC .parties h2,.template_GENERIC .noTitle .parties .titleSentence{display:none}.template_GENERIC .body{border:0.5px solid #bcbec0;border-style:solid none;box-decoration-break:slice}.template_GENERIC .body>ol>li>table,.template_GENERIC .body ol li .keepTogether table{border:1px solid #bcbec0;max-width:390px;margin:10px 0 25px;border-collapse:collapse;border-spacing:0}.template_GENERIC .body>ol>li>table td,.template_GENERIC .body ol li .keepTogether table td{border:1px solid #bcbec0}.template_GENERIC .body>ol>li>table td p,.template_GENERIC .body ol li .keepTogether table td p{padding:5px 10px;margin:0}.template_GENERIC .body>ol>li>table p strong,.template_GENERIC .body ol li .keepTogether table p strong{font-size:13px;font-family:myriad-pro,sans-serif;text-transform:uppercase}.template_GENERIC ol{list-style:none;counter-reset:item;padding:0;margin:15px 0 20px}.template_GENERIC ol>li:not(.lh){position:relative;margin:10px 0 15px 2em;padding:0}.template_GENERIC ol>li:not(.lh)::before{counter-increment:item;content:counter(item) ". ";font-weight:bold;position:absolute;left:-2em;width:2em;text-align:right;padding-right:5px;box-sizing:border-box}.template_GENERIC ol>li:not(.lh) ol{margin:10px 0}.template_GENERIC ol>li:not(.lh) ol>li{margin:10px 0 12px 2em}.template_GENERIC ol>li:not(.lh) ol>li table p{margin:8px 0 0}.template_GENERIC ol>li:not(.lh) ul{padding-left:15px}.template_GENERIC ol>li:not(.lh) ul li{padding-left:0;margin-top:10px;list-style-type:disc}.template_GENERIC ol>li:not(.lh) ul li td p{margin:0}.template_GENERIC ol>li:not(.lh)>ul>li table tbody tr>td{width:25%}.template_GENERIC ol>li:not(.lh)>ul>li table tbody tr>td+td{width:auto}.template_GENERIC ol.recital>li:not(.lh)::before{content:counter(item,upper-alpha) ". "}.template_GENERIC li ol>li:not(.lh)::before{content:counter(item,lower-alpha) ". "}.template_GENERIC li ol>li:not(.lh) ol>li:not(.lh)::before{content:counter(item,lower-roman) ". "}.template_GENERIC li.lh{margin:20px 0 10px;padding:0}.template_GENERIC u{text-decoration:none}.template_GENERIC .parties{text-align:center}.template_GENERIC .parties>div .detail:nth-of-type(1)::before{font-weight:bold;font-family:myriad-pro,sans-serif;display:block}.template_GENERIC .parties>div:nth-child(1) .detail:nth-of-type(1)::before{content:"BETWEEN:";margin:20px 0 14px}.template_GENERIC .parties>div:nth-child(1)::after{content:"OF THE FIRST PART"}.template_GENERIC .parties>div:nth-child(2) .detail:nth-of-type(1)::before{content:"AND";margin:14px 0}.template_GENERIC .parties>div:nth-child(2)::after{content:"OF THE SECOND PART"}.template_GENERIC .parties>div::after{display:block;margin:15px 0}.template_GENERIC .parties h2{margin-bottom:12px}.template_GENERIC .parties .detail{margin-bottom:5px}.template_GENERIC .parties .detail>.name,.template_GENERIC .parties .detail>.name+.address{overflow-wrap:break-word;word-wrap:break-word;word-break:break-word;overflow-x:hidden}.template_GENERIC .parties .detail>.name+.address{margin-left:5px}.template_GENERIC .signature{padding-top:20px}.template_GENERIC .signature.keepTogether table td p{margin:20px 0 0}.template_GENERIC .signatures{width:100%;display:table;direction:rtl;margin-top:40px}.template_GENERIC .signatures .signatureParty{display:table;width:100%}.template_GENERIC .signatureDetail{display:table-row}.template_GENERIC .signatureEntity,.template_GENERIC .witnesses{display:table-cell;direction:ltr;width:50%;vertical-align:middle}.template_GENERIC .signatureEntity,.template_GENERIC .witnesses .witnessSingle{padding-bottom:20px}.template_GENERIC .witnessName,.template_GENERIC .signatureEntity:not(.corp) .name,.template_GENERIC .signatureEntity .seal{padding-top:12px}.template_GENERIC table{width:100%;border:0;table-layout:fixed;word-wrap:break-word;border-collapse:collapse}.template_GENERIC .multiLineSignature table td p{line-height:36px}.template_GENERIC .multiLineSignature table tbody tr:nth-child(2) p{margin:0}.template_GENERIC .multiLineSignature h2+div>table td p{line-height:normal}.template_GENERIC .LDCopyright{font-family:"Times New Roman",Times,sans-serif}

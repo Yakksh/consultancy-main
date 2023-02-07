@@ -1,0 +1,180 @@
+/************ Banner Css ************/
+.banner {
+  margin-top: 0;
+  padding: 230px 0 100px 0;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.banner .tagline {
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+
+}
+.banner h1 {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.banner p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.banner button a{
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.banner button:hover svg {
+  margin-left: 25px;
+}
+.banner img {
+  /* animation: updown 3s linear infinite; */
+  height: 60vh;
+  padding-bottom: 10px;
+  margin-top: -50px;
+}
+
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid ;
+  background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+  background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+  background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding-left: 30px;
+}
+
+/* Clear floats after the columns */
+.row {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clrchng {
+  color: green;
+}
+
+
+
+/************ Services Css ************/
+
+ #services{
+  height: fit-content;
+}
+
+.services h1{
+  margin-bottom: 50px;
+}
+
+.services p{
+  text-align: center;
+}
+
+.services .icon-box {
+  text-align: center;
+  border: 1px solid #e5f0d5;
+  padding: 60px 20px;
+  margin-top: 5vh;
+  transition: all ease-in-out 0.3s;
+  border-radius: 1em;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);  }
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #ecf4f8;
+  border-radius: 50px;
+  border: 1px solid #ddbfe8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box .icon i {
+  color: #c199db;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .icon-box h4 a {
+  color: #353535;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.services .icon-box:hover h4 a,
+.services .icon-box:hover .icon i {
+  color: #660863;
+}
+
+.services .icon-box:hover .icon {
+  border-color: #660863;
+}
+
