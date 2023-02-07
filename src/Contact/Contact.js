@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import './Contact.css';
-import { Fade, Slide } from "react-reveal";
 
 class Contact extends Component {
   render() {
