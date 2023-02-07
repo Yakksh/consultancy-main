@@ -46,28 +46,28 @@ const Services = () => {
         <div>
           <div>
             <div className="icon">
-            <Icon.ArrowRight color="black" />;
+            <Icon.ArrowRight color="black" />
   </div>
             <h4>Cyber Security</h4>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div>
             <div className="icon">
-            <Icon.ArrowRight color="black" />;
+            <Icon.ArrowRight color="black" />
             </div>
             <h4>IT Consultant</h4>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div>
             <div className="icon">
-            <Icon.ArrowRight color="black" />;
+            <Icon.ArrowRight color="black" />
             </div>
             <h4>Cyber Security</h4>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div>
             <div className="icon">
-            <Icon.ArrowRight color="black" />;
+            <Icon.ArrowRight color="black" />
             </div>
             <h4>IT Consultant</h4>
             <p>Lorem ipsum dolor sit amet consectetur.</p>

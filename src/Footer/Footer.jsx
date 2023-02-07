@@ -23,7 +23,7 @@ class Footer extends Component {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.instagram.com/tickleminds/">
                 <Icon.Instagram />
               </a>
             </li>
@@ -39,12 +39,12 @@ class Footer extends Component {
           <ul>
             <li>
               <a href="#" className="text">
-                Cyber Security
+                AI and Machine Learning
               </a>
             </li>
             <li>
               <a href="#" className="text">
-                IT COnsultant
+                IT Consultant
               </a>
             </li>
             <li>

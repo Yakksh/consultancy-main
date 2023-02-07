@@ -41,7 +41,7 @@ If you're looking for a software consultancy company that can help you stay ahea
                             <i className="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
                             <div className="d-flex flex-column">
                                 <h5 className="font-weight-bold">Our Office</h5>
-                                <p className="m-0">221B Baker St, Central London</p>
+                                <p className="m-0">1st Floor, Kiran Kutir, Zeromile, Muz, Bihar pin:842004</p>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ If you're looking for a software consultancy company that can help you stay ahea
                             <i className="fa fa-2x fa-envelope-open text-primary mr-3"></i>
                             <div className="d-flex flex-column">
                                 <h5 className="font-weight-bold">Email Us</h5>
-                                <p className="m-0">burhankcd@gmail.com</p>
+                                <p className="m-0">info@tickleminds.in</p>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ If you're looking for a software consultancy company that can help you stay ahea
                             <i className="fas fa-2x fa-phone-alt text-primary mr-3"></i>
                             <div className="d-flex flex-column">
                                 <h5 className="font-weight-bold">Call Us</h5>
-                                <p className="m-0">0212 444 44 44</p>
+                                <p className="m-0">7568992589</p>
                             </div>
                         </div>
                     </div>
