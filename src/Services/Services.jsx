@@ -1,5 +1,21 @@
 import "./Services.css";
 import * as Icon from "react-bootstrap-icons";
+import Svr1 from "../assets/img/Service-robots.png";
+
+const handleLoadMore = () => {
+  // Code to load more data goes here
+  console.log("Load More button clicked!");
+};
+
+const handleMoreAbout = () => {
+  // Code to load more data goes here
+  console.log("More About button clicked!");
+};
+
+const handleIcon = () => {
+  // Code to load more data goes here
+  console.log("Icon clicked!");
+};
 
 const Services = () => {
   return (
@@ -19,61 +35,73 @@ const Services = () => {
       <div className="services__intro">
         <div className="pos-rel">
           <div className="services__intro__image">
-            <img
-              src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-              alt=""
-            />
+            <img src={Svr1} alt="No Image" />
           </div>
         </div>
         <div>
           <div className="services__intro__text">
-            <h1>We are the solutions for IT problems</h1>
+            <h1>
+              Empowering Your Business with Innovative Technology Solutions
+            </h1>
             <p className="text">
-              All our services are delivered by a team of experienced
-              developers, designers, and consultants who are passionate about
-              technology and committed to delivering the best possible solutions
-              to our clients. We use the latest technologies and industry best
-              practices to deliver software that is robust, scalable, and easy
-              to use. Contact us today to discuss your project and see how we
-              can help you achieve your goals.
+              Our team of experienced developers, designers, and consultants are
+              passionate about technology and committed to delivering the best
+              possible solutions to our clients. We leverage the latest
+              technologies and industry best practices to deliver software that
+              is robust, scalable, and user-friendly. If you have a project in
+              mind, feel free to contact us to discuss your goals and explore
+              how we can help you achieve them.
             </p>
-            <button className="btn btn-primary">More About</button>
+            <button className="btn btn-primary" onClick={handleMoreAbout}>
+              More About
+            </button>
           </div>
         </div>
       </div>
       <div className="services__servicesComp">
         <div>
-          <h1>Our Servcices For Technology You Need</h1>
-          <button className="btn btn-primary">Load More</button>
+          <h1>Our Technology Services - Providing What You Need</h1>
+          <button className="btn btn-primary" onClick={handleLoadMore}>
+            Load More
+          </button>
         </div>
         <div>
           <div>
-            <div className="icon">
+            <button className="icon" onClick={handleIcon}>
               <Icon.ArrowRight color="black" />
-            </div>
-            <h4>Cyber Security</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </button>
+            <h4>Web Development</h4>
+            <p>
+              Using the latest technologies to enhance online visibility and
+              drive business growth.
+            </p>
           </div>
           <div>
-            <div className="icon">
+            <button className="icon" onClick={handleIcon}>
               <Icon.ArrowRight color="black" />
-            </div>
-            <h4>IT Consultant</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </button>
+            <h4>Cloud Computing</h4>
+            <p>Help businesses leverage the full potential of the cloud.</p>
           </div>
           <div>
-            <div className="icon">
+            <button className="icon" onClick={handleIcon}>
               <Icon.ArrowRight color="black" />
-            </div>
-            <h4>Cyber Security</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </button>
+            <h4>AI & ML</h4>
+            <p>
+              Help businesses build intelligent systems that can learn from data
+              and improve decision-making processes.
+            </p>
           </div>
           <div>
-            <div className="icon">
+            <button className="icon" onClick={handleIcon}>
               <Icon.ArrowRight color="black" />
-            </div>
-            <h4>IT Consultant</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </button>
+            <h4>Custom Software Development</h4>
+            <p>
+              Help businesses build scalable, user-friendly, and cost-effective
+              software solutions.
+            </p>
           </div>
         </div>
       </div>
